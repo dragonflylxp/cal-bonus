@@ -821,7 +821,7 @@ int api_prize_optimizer(char* mctx, char* tctx, double usermoney, int type, char
 #endif // _TIME
 
     //最小奖金
-    expire_allin_zone();
+    //expire_allin_zone();   
     make_inclusion_map();
     for (i=0; i<matchnum; ++i)
         check_allin(&match[i].pl[0], match[i].pn, i);
